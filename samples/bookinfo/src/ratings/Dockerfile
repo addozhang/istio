@@ -27,5 +27,5 @@ RUN apt-get update \
 ARG service_version
 ENV SERVICE_VERSION ${service_version:-v1}
 
-EXPOSE 9080
-CMD ["node", "/opt/microservices/ratings.js", "9080"]
+EXPOSE 8080
+CMD ["node", "/opt/microservices/ratings.js", "8080"]

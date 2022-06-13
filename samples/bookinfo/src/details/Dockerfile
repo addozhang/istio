@@ -21,7 +21,7 @@ ENV SERVICE_VERSION ${service_version:-v1}
 ARG enable_external_book_service
 ENV ENABLE_EXTERNAL_BOOK_SERVICE ${enable_external_book_service:-false}
 
-EXPOSE 9080
+EXPOSE 8080
 WORKDIR /opt/microservices
 
-CMD ["ruby", "details.rb", "9080"]
+CMD ["ruby", "details.rb", "8080"]

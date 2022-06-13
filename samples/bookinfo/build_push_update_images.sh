@@ -36,7 +36,7 @@ else
 fi
 
 # Process the input arguments. By default, image scanning is disabled.
-PREFIX=istio
+PREFIX=flomesh
 ENABLE_IMAGE_SCAN=false
 echo "$@"
 for i in "$@"
